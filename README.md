@@ -2,8 +2,8 @@
 
 A library to easily implement the browser API native features into the flutter web such as [MediaStream Recorder](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder), [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API), [Notifications](https://developer.mozilla.org/en-US/docs/Web/API/notification), etc...
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)
-[![pub package](https://img.shields.io/pub/v/browser_api.svg)](https://pub.dartlang.org/packages/browser_api)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
+[![pub package](https://img.shields.io/pub/v/browser_api.svg?style=flat-square)](https://pub.dartlang.org/packages/browser_api) 
 
 **Show some ❤️ and shoot some stars to support the project**
 ## Usage
@@ -36,7 +36,7 @@ import 'package:browser_api/browser_api.dart';
 ```
 
 Then use the `BrowserApi` in your code. To see how this is done,
-check out the [browser_api example app](/example).
+check out the [example](./example) or view an online [demo](https://bujupah-browserapi.surge.sh/).
 
 ## Todo
 - [x] Web Notification
