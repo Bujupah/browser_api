@@ -10,22 +10,22 @@ A library to easily implement the browser API native features into the flutter w
 
 * **MediaStream Recorder**
     ```dart
-        import 'package:browser_api/browser_api.dart';
+    import 'package:browser_api/browser_api.dart';
 
-        BrowserApi _browserApi = BrowserApi();
+    BrowserApi _browserApi = BrowserApi();
 
-        _browserApi.audioRecorder.startRecording(onDataAvailable: (data) { });
-        _browserApi.audioRecorder.stopRecording();
-        _browserApi.audioRecorder.playAudio();
-        _browserApi.audioRecorder.audioData
+    _browserApi.audioRecorder.startRecording(onDataAvailable: (data) { });
+    _browserApi.audioRecorder.stopRecording();
+    _browserApi.audioRecorder.playAudio();
+    _browserApi.audioRecorder.audioData
     ```
 * **Web Notifications**
     ```dart
-        import 'package:browser_api/browser_api.dart';
+    import 'package:browser_api/browser_api.dart';
 
-        BrowserApi _browserApi = BrowserApi();
+    BrowserApi _browserApi = BrowserApi();
 
-        _browserApi.notify('Hello Peeps', onClick: () { print('Yay'); });
+    _browserApi.notify('Hello Peeps', onClick: () { print('Yay'); });
     ```
 
 ## Example
@@ -36,7 +36,7 @@ import 'package:browser_api/browser_api.dart';
 ```
 
 Then use the `BrowserApi` in your code. To see how this is done,
-check out the [browser_api example app](https://github.com/bujupah/packages/tree/master/packages/browser_api/example).
+check out the [browser_api example app](/example).
 
 ## Todo
 - [x] Web Notification
