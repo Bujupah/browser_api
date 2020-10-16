@@ -1,5 +1,5 @@
 name: browser_api
-description: A new flutter plugin project.
+description: A library to easily implement the browser API native features into the flutter web.
 version: 0.0.3+1
 homepage: https://github.com/Bujupah/browser_api
 
