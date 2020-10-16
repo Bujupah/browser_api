@@ -2,8 +2,10 @@
 
 A library to easily implement the browser API native features into the flutter web such as [MediaStream Recorder](https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder), [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API), [Notifications](https://developer.mozilla.org/en-US/docs/Web/API/notification), etc...
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
-[![pub package](https://img.shields.io/pub/v/browser_api.svg?style=flat-square)](https://pub.dartlang.org/packages/browser_api) ![Opensource](https://img.shields.io/static/v1?style=flat-square&label=OpenSource&message=❤&color=red)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/Bujupah/browser_api/blob/master/LICENSE)
+[![pub package](https://img.shields.io/pub/v/browser_api.svg?style=flat-square)](https://pub.dartlang.org/packages/browser_api) 
+[![Opensource](https://img.shields.io/static/v1?style=flat-square&label=opensource&message=❤&color=yellow)](https://github.com/bujupah/browser_api)
+[![Issues](https://img.shields.io/github/issues-raw/bujupah/browser_api?color=red&logo=github&style=flat-square)](https://github.com/Bujupah/browser_api/issues)
 
 **Show some ❤️ and shoot some stars to support the project**
 ## Usage
