@@ -10,29 +10,29 @@ A library to easily implement the browser API native features into the flutter w
 
 * **MediaStream Recorder**
     ```dart
-        import 'package:browser_api/browser_api_web.dart';
+        import 'package:browser_api/browser_api.dart';
 
-        BrowserApiWeb _browserApiWeb = BrowserApiWeb();
+        BrowserApi _browserApi = BrowserApi();
 
-        // MediaStream Audio Recording
-        _browserApiWeb.audioRecorder.startRecording(onDataAvailable: (data) { });
-        _browserApiWeb.audioRecorder.stopRecording();
-        _browserApiWeb.audioRecorder.playAudio();
-        _browserApiWeb.audioRecorder.audioData
+        _browserApi.audioRecorder.startRecording(onDataAvailable: (data) { });
+        _browserApi.audioRecorder.stopRecording();
+        _browserApi.audioRecorder.playAudio();
+        _browserApi.audioRecorder.audioData
     ```
 * **Web Notifications**
     ```dart
-        import 'package:browser_api/browser_api_web.dart';
+        import 'package:browser_api/browser_api.dart';
 
-        BrowserApiWeb _browserApiWeb = BrowserApiWeb();
-        _browserApiWeb.notify('Hello Peeps', onClick: () { print('Yay'); });
+        BrowserApi _browserApi = BrowserApi();
+
+        _browserApi.notify('Hello Peeps', onClick: () { print('Yay'); });
     ```
 
 ## Example
 Import the library via
 
 ```dart
-import 'package:browser_api/browser_api_web.dart';
+import 'package:browser_api/browser_api.dart';
 ```
 
 Then use the `BrowserApi` in your code. To see how this is done,
