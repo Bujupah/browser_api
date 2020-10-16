@@ -1,3 +1,6 @@
+## 0.0.3+1
+- Add demo
+
 ## 0.0.3
 - Add example
 - Updated Readme and some code formatting
