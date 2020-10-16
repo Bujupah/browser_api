@@ -9,6 +9,26 @@ import 'package:browser_api/api/notification.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
+
+
+/// This needs implementation with the new architecture
+/// Someone reading this should help me out and do a PR
+/// Thanks <3
+class BrowserApi {
+  static BrowserApi _instance;
+  factory BrowserApi() => _instance ??= BrowserApi._internal();
+  
+  BrowserApi._internal(){
+    BrowserRecorder();
+    BrowserNotify();
+  }
+
+  BrowserRecorder get audioRecorder => BrowserRecorder.instance;
+  BrowserNotify get notify => BrowserNotify.instance;
+
+}
+
+// The new architecture
 /// A web implementation of the BrowserApi plugin.
 class BrowserApiWeb {
   static void registerWith(Registrar registrar) {
@@ -34,21 +54,4 @@ class BrowserApiWeb {
         );
     }
   }
-
-  // This needs implementation with the new architecture
-  // Someone reading this should help me out and do a PR
-  // Thanks <3
-  
-  static BrowserApiWeb _instance;
-  factory BrowserApiWeb() => _instance ??= BrowserApiWeb._internal();
-  
-  BrowserApiWeb._internal(){
-    BrowserRecorder();
-    BrowserNotify();
-  }
-
-  BrowserRecorder get audioRecorder => BrowserRecorder.instance;
-  BrowserNotify get notify => BrowserNotify.instance;
-
-
 }
