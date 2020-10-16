@@ -1,3 +1,6 @@
+## 0.0.3+2
+- Updated project description
+
 ## 0.0.3+1
 - Add demo
 
